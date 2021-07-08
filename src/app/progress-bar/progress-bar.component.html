@@ -1,0 +1,6 @@
+<mat-progress-bar
+  *ngIf="isPageLoading || isDownloading"
+  [mode]="isPageLoading ? 'indeterminate' : 'determinate'"
+  [value]="loadingProgress"
+  class="app-progress-bar"
+></mat-progress-bar>
